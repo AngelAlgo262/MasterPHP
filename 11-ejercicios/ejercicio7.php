@@ -1,6 +1,6 @@
 <?php
 /*
-Escribir un programa que muestre la secuencia de numeros impares entre dos numeros que lleguen por get 
+Escribir un programa que muestre la secuencia de números impares entre dos numeros que lleguen por get 
 (es decir mostrar la secuencia del 1 al 80), en caso de que no lleguen indicarselo al usuario 
 */
 
@@ -14,7 +14,7 @@ if(isset ($_GET ['numero1']) && isset ($_GET ['numero2'])){
             if ($algo % 2 != 0){
                 echo "<h1>$algo es IMPAR</h1>";
             }else {
-            //Todos los numeros cuyo residio de dividir entre 2 es 0 es par
+            //Todos los números cuyo residuo de dividir entre 2 es 0 es par
                 echo "<h1>$algo es PAR</h1>";
             }
             
@@ -25,7 +25,7 @@ if(isset ($_GET ['numero1']) && isset ($_GET ['numero2'])){
 
 
 }else{
-    echo "<h1>Los parametros no existen</h1>";
+    echo "<h1>Los parámetros no existen</h1>";
 }
 
 

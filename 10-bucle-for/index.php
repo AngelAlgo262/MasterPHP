@@ -1,12 +1,12 @@
 <?php
 /*
-FOR es el bucle mas usado en todos los lengujes de programacion, sintaxis
-for(variable contador; condicion; actualizando el contador){
+FOR es el bucle mas usado en todos los lenguajes de programación, sintaxis
+for(variable contador; condición; actualizando el contador){
     bloque de condiciones
 }
 la primer variable solo se ejecuta al inicio del bucle, para a la 
-condicion si evalua como true para a actualizar el contador e itera hasta
-que la condicion sea false ejemplo
+condición si evalúa como true para a actualizar el contador e itera hasta
+que la condición sea false ejemplo
 */
 
 //Ejemplo Tabla de Suma
@@ -51,7 +51,7 @@ for($contador = 1; $contador <=10; $contador++){
 }
 
 /*
-Break termina la ejecucion del bloque, suele usarse con un if o directamente en
+Break termina la ejecución del bloque, suele usarse con un if o directamente en
 el código
 */
 

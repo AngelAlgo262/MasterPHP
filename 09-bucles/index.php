@@ -1,12 +1,12 @@
 <?php
 /*
- Bluces: Son estucturas de control que itera o repite la ejecucion de una serie de instrucciones
- en base a una condicion, el bucle while es el mas comun y su estuctura es:
+ Bucles: Son estructuras de control que itera o repite la ejecución de una serie de instrucciones
+ en base a una condición, el bucle while es el mas común y su estructura es:
  while(condición){
-    bloque de instucciones
-    otras instrcciones
+    bloque de instrucciones
+    otras instrucciones
  } 
- cuando la instruccion ya no se cumple sale del while 
+ cuando la instrucción ya no se cumple sale del while 
 */
 
 $numero=0;
@@ -19,8 +19,8 @@ while($numero <=100){
 }
 
 echo "<hr/>";
-/*Ejempo 1 bucle con informacion recibida por get, se puede obligar a recibir un tipo de dato
-casteando la variable, esto se hace colocando entre parentesis el tipo de dato (casteo de datos)*/
+/*Ejemplo 1 bucle con información recibida por get, se puede obligar a recibir un tipo de dato
+casteando la variable, esto se hace colocando entre paréntesis el tipo de dato (casteo de datos)*/
 
 if(isset ($_GET['numero'])){
     $numero = (int)$_GET['numero'];

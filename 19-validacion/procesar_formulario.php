@@ -1,5 +1,5 @@
 <?php
-//Confirmar que la informacion llega por POST
+//Confirmar que la información llega por POST
 $error = 'faltan_valores';
 
 if (
@@ -17,7 +17,7 @@ if (
     $email = $_POST['email'];
     $pass = $_POST['pass'];
 
-    //Validacion de campo por campo buscar expresiones regulares
+    //Validación de campo por campo buscar expresiones regulares
     if (!is_string($nombre) || preg_match("/[0-9]+/", $nombre)) {
         $error = 'nombre';
     }
@@ -42,7 +42,7 @@ if (
 }
 
 if ($error != 'ok') {
-    header("Location:index.php?error=$error"); //redirecciona a index
+    header("Location:index.php?error=$error"); //regresa a index
 }
 ?>
 
