@@ -1,15 +1,15 @@
 <?php
 /*
-Array: Es una coleccion de datos bajo un unico nombre, se puede accedera esos valores mediante un
-indice numerico o alfanumerico, es una variable que contiene muchas variables
+Array: Es una colección de datos bajo un único nombre, se puede acceder a esos valores mediante un
+indice númerico o alfanumérico, es una variable que contiene muchas variables
 */
 
 $pelicula = "Batman"; //Con una variable solo podemos almacenar un valor
-//Con un array se peden almacenar muchos valores
+//Con un array se pueden almacenar muchos valores
 $peliculas = array('Batman', 'Spiderman', 'El señor de los anillos');
 $cantantes = ['2pac', 'Drake','Sara Jay'];
 /*
-Array asociatio, es cuando se relaciona un nombre con un valor, esto se hace
+Array asociativo, es cuando se relaciona un nombre con un valor, esto se hace
 con la flecha =>
 */
 $personas = array(
@@ -39,7 +39,7 @@ echo"</ul>";
 echo "<hr>";
 
 /*
-El bucle foreach esra diseñado para trabajar con arrays
+El bucle foreach esta diseñado para trabajar con arrays
 */
 echo "<h1>Listado de Cantantes</h1>" ;
 echo "<ul>";
@@ -49,7 +49,7 @@ foreach($cantantes as $cantantes){ //Recorre $cantantes, por cada iteracion crea
 echo "</ul>";
 
 /* 
-Array multidimencionales: Son los array que estan dentro de un array (array anidado) ejemplo
+Array multidimensional: Son los array que están dentro de un array (array anidado) ejemplo
 */
 
 $contactos = array (
@@ -77,7 +77,7 @@ echo "<hr>";
 var_dump($contactos[0]['nombre']); 
 echo "<hr>";
 
-//Se pede recorrer con foreach
+//Se puede recorrer con foreach
 echo "<ul>";
 foreach($contactos as $contactos){
     echo "<li>". ($contactos['nombre']). "</li>";
