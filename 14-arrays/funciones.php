@@ -1,8 +1,8 @@
 <?php
 /*
-Existen finciones para trabajar con arrays como:
-sort: ordena los indices alfabeticamente (de la A a la Z)
-arsort: Ordena los indices alfabeticamente (de la Z a la A)
+Existen funciones para trabajar con arrays como:
+sort: ordena los indices alfabéticamente (de la A a la Z)
+arsort: Ordena los indices alfabéticamente (de la Z a la A)
 */
 $cantantes = ['2pac', 'Drake','Sara Jay', 'Alfredo Jimenez', 'Pitbull', 'Emminem'];
 $numeros = [1,0,6,4,8,5,2,7];
@@ -12,13 +12,13 @@ arsort($cantantes);
 var_dump($cantantes);
 echo "<hr>";
 
-/*Agregar indices. Para agregar indices es mas efectivo usar array push tambien se puede
-poner el corchete vacio y asigna un valor
+/*Agregar indices. Para agregar indices es mas efectivo usar array push también se puede
+poner el corchete vació y asigna un valor
 */
-array_push($cantantes, 'Waor'); //Se coloca el array y el inidice separado por coma
+array_push($cantantes, 'Waor'); //Se coloca el array y el indice separado por coma, lo cual agregara el valor
 var_dump($cantantes);
 
-$cantantes [] = 'Chente'; //Se coloca el array corchete vacio y el valor de indice
+$cantantes [] = 'Chente'; //Se coloca el array corchete vació y el valor de indice, sto va agregar un valor
 var_dump($cantantes);
 echo "<hr>";
 
@@ -27,11 +27,11 @@ Eliminar indices. Con array_pop se elimina el ultimo indice agregado, para elimi
 en indice en especifico se usa unset
 */
 array_pop($cantantes);
-unset($cantantes[2]); //Para eliminar se define el array y el indice
+unset($cantantes[2]); //Para eliminar se define el array y el indice que se requiere eliminar
 var_dump($cantantes);
 echo "<hr>";
 /*
-Se peude obtener un indice aleaorio con array_rand
+Se puede obtener un indice aleatorio con array_rand
 */
 echo array_rand($cantantes); //Muestra un indice aleatorio
 echo "<hr>";
