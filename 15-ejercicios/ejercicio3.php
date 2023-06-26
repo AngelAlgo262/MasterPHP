@@ -1,17 +1,17 @@
 <?php
 /*
-Crera un programa que compruebe si una variable esta vacia, si esto es asi, llenarla con manusculas
-y mostrarla al usuario en mayusculas y en negrita
+Crear un programa que compruebe si una variable esta vacía, si esto es asi, llenarla con minúsculas
+y mostrarla al usuario en mayúsculas y en negrita
 */
 
 $algo = "";
+$value = $_GET['value'];
 
-if(empty ($algo)){
-    $algo = "minusculas";
-    $mayus = strtoupper($algo);
-    echo "<strong>". $mayus. "</strong>";
+if(empty ($value)){
+    echo 'La variable esta vacía, pero puede indicar un valor en la URL (?value=lo que requiera ver)';
 }else{
-    echo "Escribe algo";
+    $mayus = strtoupper($value);
+    echo 'El valor capturado es: '. "<strong>".  $mayus. "</strong>";
 }
 
 ?>
