@@ -10,7 +10,7 @@
 
 <body>
     <h1>Master en PHP </h1>
-    <?= "Con un <?=?> tambein se peude imprimir";?>
+    <?= "Con un <?=?> también se puede imprimir";?>
     <?php
 
     echo "<h3>Lista de Juegos:</h3>";
