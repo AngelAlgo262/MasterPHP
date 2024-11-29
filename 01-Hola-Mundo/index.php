@@ -1,3 +1,3 @@
 <?php
-	echo <H1>"Hola Mundo"</H1>; 
+	echo "Hola Mundo con PHP";
 ?>
